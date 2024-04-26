@@ -1,4 +1,3 @@
-
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -701,7 +700,6 @@ body {
 .navbar-expand .navbar-toggler {
   display: none;
 }
-
 
 .card > hr {
   margin-right: 0;
@@ -3808,7 +3806,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
     clear: both;
     content: "";
   }
-  
+
   .card-header > .card-tools {
     float: right;
     margin-right: -0.625rem;
@@ -3819,7 +3817,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
     margin-bottom: -0.3rem;
     margin-top: -0.3rem;
   }
-  
+
   .btn-group.show .btn-tool,
   .btn-tool:hover {
     color: #495057;
