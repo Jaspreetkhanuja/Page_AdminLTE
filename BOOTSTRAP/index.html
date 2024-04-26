@@ -11,7 +11,8 @@
     />
 
     <link rel="stylesheet" href="dist/css/adminlte.css" />
-    <link
+    <link rel="stylesheet" href="dist/css/style.css"/>
+        <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
     />
@@ -23,9 +24,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="plugins/jquery/jquery.min.js"></script>
     <script src="dist/js/adminlte.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+   
   </head>
 
   <body
@@ -96,7 +99,7 @@
               src="dist/images/AdminLTELogo.png"
               alt="AdminLTE Logo"
               class="brand-image img-circle elevation-3"
-              style="opacity: 0.8"
+             
             />
             <span class="brand-text font-weight-light">AdminLTE</span>
           </a>
@@ -180,19 +183,15 @@
                   <h1>
                     Dashboard
                     <span
-                      style="
-                        color: #b4bec2;
-                        font-size: smaller;
-                        font-family: unset;
-                      "
+                      
                       >Version 2.0</span
                     >
                   </h1>
                 </div>
                 <div class="col-lg-6 right-diva div2">
                   <i class="nav-icon fas fa-tachometer-alt me-1"></i>
-                  Home <span style="margin: 0 5px">&gt;</span>
-                  <span style="color: #717779">Dashboard</span>
+                  Home <span>&gt;</span>
+                  <span >Dashboard</span>
                 </div>
               </div>
             </div>
@@ -206,8 +205,8 @@
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box">
                     <span
-                      class="info-box-icon"
-                      style="background-color: #03c0ef"
+                      class="info-box-icon bg-color1"
+                      
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -235,8 +234,8 @@
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box mb-3">
                     <span
-                      class="info-box-icon"
-                      style="background-color: #dd4b39"
+                      class="info-box-icon bg-color2"
+                    
                       ><svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -263,8 +262,8 @@
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box mb-3">
                     <span
-                      class="info-box-icon"
-                      style="background-color: #3ea75b"
+                      class="info-box-icon bg-color3"
+                   
                       ><svg
                         fill="white"
                         enable-background="new 0 0 50 50"
@@ -327,8 +326,8 @@
                 <div class="col-12 col-sm-6 col-md-3">
                   <div class="info-box mb-3">
                     <span
-                      class="info-box-icon"
-                      style="background-color: #f29d38"
+                      class="info-box-icon bg-color4"
+                    
                       ><svg
                         height="50px"
                         id="Layer_1"
@@ -650,7 +649,7 @@
               <!-- Latest Orders -->
               <div
                 class="card-header"
-                style="border-top-style: outset; border-top-color: skyblue"
+               
               >
                 <h3 class="card-title">Latest Orders</h3>
 
@@ -735,11 +734,11 @@
                 </div>
               </div>
 
-              <div class="card-footer clearfix" style="background-color: white">
+              <div class="card-footer clearfix">
                 <a class="btn btn-sm btn-info float-left">Place New Order</a>
                 <a
                   class="btn btn-sm float-right"
-                  style="border: #717779; background-color: lightgray"
+                
                   >View All Orders</a
                 >
               </div>
@@ -748,7 +747,7 @@
             <!-- Vertical Boxes -->
             <div class="col-md-6 col-lg-4 col-sm-12">
               <h5 class="card-title text-center">Vertical Boxes</h5>
-              <div class="info-box mb-3 bg" style="background-color: #f29d38">
+              <div class="info-box mb-3 bg v1-bg" style="background-color: #f29d38">
                 <span class="info-box-icon" style="background-color: #c17d2b"
                   ><svg
                     class="h-75"
@@ -913,20 +912,16 @@
                 <div class="card-body">
                   <div
                     class="box-title-container"
-                    style="
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: center;
-                    "
+                   
                   >
                     <h6 class="box-title" style="margin: 0">Browser Usage</h6>
                   </div>
-                  <div style="width: 250; height: auto">
+                  <div >
                     <div id="apexcharts-doughnut"></div>
 
                     <div class="row mt-3">
                       <div class="col-6">
-                        <span class="text-truncate" style="max-width: 100%"
+                        <span class="text-truncate"
                           >United States of America</span
                         >
                       </div>
@@ -954,7 +949,7 @@
                 </div>
                 <div
                   id="apexcharts-doughnut"
-                  style="width: max-content; height: auto"
+                
                 ></div>
                 <script>
                   var options = {
@@ -999,7 +994,7 @@
             <div class="card m-1">
               <div
                 class="card-header"
-                style="border-top-style: outset; border-top-color: blue"
+               
               >
                 <h3 class="card-title">Recently Added Products</h3>
 
